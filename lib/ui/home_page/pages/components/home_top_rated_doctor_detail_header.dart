@@ -101,8 +101,8 @@ class HomeTopRatedDoctorDetailHeader extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 20.h),
-              CustomText(
-                text: visitingHour,
+              const CustomText(
+                text: visitingHourText,
                 color: whiteShade600,
                 fontSize: 11,
               ),
