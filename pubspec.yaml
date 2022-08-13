@@ -20,7 +20,7 @@ dependencies:
   google_maps_flutter:
   flutter_slidable:
   material_design_icons_flutter:
-  flutter_carousel_slider:
+  carousel_slider:
 
 dev_dependencies:
   flutter_test:

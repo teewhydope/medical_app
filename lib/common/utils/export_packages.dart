@@ -10,3 +10,4 @@ export 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 export 'package:google_maps_flutter/google_maps_flutter.dart';
 export 'package:auto_size_text/auto_size_text.dart';
 export 'package:google_fonts/google_fonts.dart';
+export 'package:carousel_slider/carousel_slider.dart';

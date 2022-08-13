@@ -61,7 +61,7 @@ class HomeTopRatedDoctorDetailHeader extends StatelessWidget {
                     fontSize: 20,
                     color: white,
                   ),
-                  Container(),
+                  SizedBox(width: .1.sw)
                 ],
               ),
               SizedBox(height: 14.h),

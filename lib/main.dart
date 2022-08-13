@@ -24,10 +24,11 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           theme: ThemeData(
             //fontFamily: shinePro,
+            iconTheme: const IconThemeData(color: white),
             colorScheme: ColorScheme.fromSwatch(
               brightness: Brightness.light,
               primarySwatch: createMaterialColor(
-                primaryColor,
+                white,
               ),
             ),
           ),

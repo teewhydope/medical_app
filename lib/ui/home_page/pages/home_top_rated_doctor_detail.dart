@@ -51,6 +51,7 @@ class TopRatedDoctorDetail extends StatelessWidget {
                   SizedBox(height: 16.h),
                   const CustomElevatedButton(
                     label: bookAppointment,
+                    isTrailingIconVisible: true,
                   ),
                 ],
               ),

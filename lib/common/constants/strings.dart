@@ -5,6 +5,11 @@ const String seeAll = "See all";
 const String topRatedDoctor = "Top Rated Doctor";
 const String description = "Description";
 const String schedule = "Schedule";
+const String getStarted = "Get Started";
+const String landingPageTitle = "Perfect HealthCare Solution";
+const String landingPageSubtitle =
+    "Find a specialist that you only need on a consulting application";
+
 const String location = "Location";
 const String bookAppointment = "Book an Appointment";
 const String totalPatients = "Total patients";
