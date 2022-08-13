@@ -11,14 +11,8 @@ class LandingPage extends StatefulWidget {
 }
 
 class _LandingPageState extends State<LandingPage> {
-  late CarouselController _carouselController;
+  final CarouselController _carouselController = CarouselController();
   int _currentPage = 0;
-
-  @override
-  void initState() {
-    super.initState();
-    _carouselController = CarouselController();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,8 +22,8 @@ class _LandingPageState extends State<LandingPage> {
         child: Stack(
           children: [
             Container(
+              height: 1.sh,
               color: primaryColor,
-              height: .6.sh,
               child: Stack(
                 children: [
                   Image.asset("${imagePath}spiral.png"),
@@ -37,10 +31,8 @@ class _LandingPageState extends State<LandingPage> {
                 ],
               ),
             ),
-            Positioned(
-              left: 0,
-              right: 0,
-              bottom: 0,
+            Align(
+              alignment: Alignment.bottomCenter,
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 20.0),
                 height: .5.sh,
@@ -58,8 +50,6 @@ class _LandingPageState extends State<LandingPage> {
                       carouselController: _carouselController,
                       itemBuilder: (BuildContext context, int itemIndex,
                           int pageViewIndex) {
-                        //_carouselController.animateToPage(_currentPage);
-
                         return Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -106,7 +96,6 @@ class _LandingPageState extends State<LandingPage> {
                             margin: const EdgeInsets.symmetric(
                                 vertical: 8.0, horizontal: 4.0),
                             decoration: BoxDecoration(
-                              //shape: BoxShape.circle,
                               borderRadius: BorderRadius.circular(8.r),
                               color: _currentPage == entry.key
                                   ? primaryColor

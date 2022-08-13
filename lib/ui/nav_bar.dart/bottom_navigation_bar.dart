@@ -28,6 +28,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: whiteShade800,
       body: IndexedStack(
         index: _currentIndex,
         children: pageList,
