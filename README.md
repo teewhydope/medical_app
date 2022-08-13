@@ -1,16 +1,10 @@
 # medical_app
 
-A new Flutter project.
+Medical App mock from Up Labs https://www.uplabs.com/posts/medical-app-mobile-app-design
 
-## Getting Started
+This project uses the feature first approach where new folder is created for every new feature. Please set your map api key in AndroidManifest.xml in line 31, to make the map section in the details page visible. other than that, no extra configuration is needed to run the app.
 
-This project is a starting point for a Flutter application.
+Project uses Dart 2.17.5 Flutter 3.0.4
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411317.png" width="200" height="400"> <img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411325.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411482.png" width="200" height="400"><img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411523.png" width="200" height="400">
