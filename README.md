@@ -6,7 +6,5 @@ This project uses the feature first approach where new folder is created for eve
 
 Project uses Dart 2.17.5 Flutter 3.0.4
 
-<img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411317.png" width="200" height="400"> 
-<img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411325.png" width="200" height="400">
-<img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411482.png" width="200" height="400">
-<img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411523.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411317.png" width="200" height="400"> <img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411325.png" width="200" height="400">
+<img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411482.png" width="200" height="400"><img src="https://raw.githubusercontent.com/teewhydope/medical_app/main/art/Screenshot_1660411523.png" width="200" height="400">
